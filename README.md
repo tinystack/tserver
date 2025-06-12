@@ -522,18 +522,6 @@ go test -bench=.
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Changelog
-
-### v1.0.0
-
-- Initial release
-- Multi-application management
-- Lifecycle hooks support
-- Graceful shutdown
-- Signal handling
-- Context-based control
-- Comprehensive test suite
-
 ---
 
 For more examples and detailed documentation, please check the [example](example/) directory.
