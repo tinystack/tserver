@@ -1,29 +1,35 @@
-# TServer
+# tserver 🚀
 
-[![Go Version](https://img.shields.io/badge/go-%3E%3D1.18-blue.svg)](https://golang.org/)
+**[English](README.md) | [简体中文](README_CN.md)**
+
+[![Go Report Card](https://goreportcard.com/badge/github.com/tinystack/tserver)](https://goreportcard.com/report/github.com/tinystack/tserver)
+![Go Version](https://img.shields.io/badge/go%20version-%3E=1.18-61CFDD.svg?style=flat-square)
+[![PkgGoDev](https://pkg.go.dev/badge/mod/github.com/tinystack/tserver)](https://pkg.go.dev/mod/github.com/tinystack/tserver)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Test Coverage](https://img.shields.io/badge/coverage-98.1%25-brightgreen.svg)](https://github.com/tinystack/tserver)
 
-A robust, lightweight server framework for Go that simplifies managing multiple applications with lifecycle hooks, graceful shutdown, and signal handling capabilities.
+**A production-ready Go server framework designed for orchestrating multiple applications with enterprise-grade lifecycle management**
 
-## Features
+**tserver** empowers Go developers to build robust, scalable systems by providing a unified control plane for managing diverse applications - from HTTP servers and gRPC services to background workers and scheduled tasks. With built-in signal handling, context-aware shutdown sequences, and flexible Wait patterns, TServer transforms complex application orchestration into simple, declarative code that's ready for production environments.
 
-- **Multi-Application Management**: Run multiple applications within a single server instance
-- **Lifecycle Hooks**: Add startup and shutdown hooks for initialization and cleanup tasks
-- **Graceful Shutdown**: Automatic handling of SIGINT and SIGTERM signals with configurable timeouts
-- **Context-Based Control**: Full context support for cancellation and timeout management
-- **Thread-Safe Operations**: Concurrent-safe application and hook management
-- **Flexible Architecture**: Easy to extend and customize for specific needs
-- **Comprehensive Testing**: 98.1% test coverage with extensive unit tests
-- **Zero Dependencies**: No external dependencies beyond Go standard library
+## ✨ Features
 
-## Installation
+- **🎯 Multi-Application Management** - Run multiple applications concurrently within a single server instance
+- **🔄 Lifecycle Hooks** - Flexible startup and shutdown hook system for easy initialization and cleanup tasks
+- **🛡️ Graceful Shutdown** - Automatic handling of SIGINT and SIGTERM signals with configurable timeouts
+- **⚡ Context Control** - Full Context support for precise cancellation and timeout management
+- **🔒 Thread Safety** - All operations are thread-safe, supporting high-concurrency scenarios
+- **🔧 Flexible Architecture** - Easy to extend and customize for various business requirements
+- **🧪 Comprehensive Testing** - 98.1% test coverage ensuring code quality
+- **📦 Zero Dependencies** - Only depends on Go standard library, no external dependencies
+
+## 📥 Installation
 
 ```bash
 go get github.com/tinystack/tserver
 ```
 
-## Quick Start
+## 🚀 Quick Start
 
 ### Basic Usage
 
